@@ -1,0 +1,12 @@
+using System;
+
+class Principal {
+    static void Main() {
+        Console.Write("Digite o seu nome: ");
+
+        string user;
+        user = Console.ReadLine();
+
+        Console.Write("Olá" + user);
+    }
+}
